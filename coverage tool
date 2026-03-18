@@ -1,0 +1,21 @@
+ coverage run -m pytest tests/test_performance.py            
+================================================ test session starts ================================================= 
+platform win32 -- Python 3.13.9, pytest-9.0.2, pluggy-1.6.0
+rootdir: C:\Users\Student\PycharmProjects\PythonProject
+collected 1 item                                                                                                      
+
+tests\test_performance.py .                                                                                     [100%]
+
+================================================= 1 passed in 0.02s ==================================================
+
+coverage report -m
+Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------
+src\processor.py                7      0   100%
+tests\test_performance.py      10      0   100%
+---------------------------------------------------------
+TOTAL                          17      0   100%
+
+browser report:
+ coverage html
+Wrote HTML report to htmlcov\index.html
